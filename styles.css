@@ -302,7 +302,7 @@ nav ul li a:hover::after{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .layer p{
@@ -320,6 +320,7 @@ nav ul li a:hover::after{
 
 #btn-project1, #btn-project2, #btn-project3{
     background-color: transparent;
+    color: transparent;
 }
 
 #btn-project1:hover , #btn-project2:hover, #btn-project3:hover{
@@ -342,7 +343,7 @@ nav ul li a:hover::after{
 }
 
 .btn{
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: #ff004f;
     text-decoration: none;
     display: block;

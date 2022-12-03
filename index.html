@@ -34,16 +34,16 @@
     <div class="container">
         <div class="row">
             <div class="about1">
-                <img src="images/headshot-meetu.jpg">
+                <img src="images/headshot-meetu.jpg" alt="Headshot">
             </div>
             <div class="about2">
                 <h1 class="heading">About Me</h1>
                 <p class="about-me-description">I am Meetu Patel. I am currently pursuing Master's in Computer Science from Northwestern University. I completed my bachelors in Computer Engineering from Nirma University. 
                     I have worked primarily in the domain of Machine Learning and Big Data. I have experience working as a Machine Learning intern and Big Data Platform Engineering intern. </p>
                 <div class="about-me-titles">
-                    <p class="about-me-tab active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="about-me-tab" onclick="opentab('experience')">Experience</p>
-                    <p class="about-me-tab" onclick="opentab('education')">Education</p>
+                    <p class="about-me-tab active-link" onclick="opentab('skills')" tabindex="0">Skills</p>
+                    <p class="about-me-tab" onclick="opentab('experience')" tabindex="0">Experience</p>
+                    <p class="about-me-tab" onclick="opentab('education')" tabindex="0">Education</p>
                 </div>
 
                 <div class="tab-contents active-tab" id="skills">
@@ -207,24 +207,24 @@
         <h1 class="heading">My Projects</h1>
         <div class="project-list">
             <div class="showcase-project">
-                <img src="images/project-1.png">
+                <img src="images/project-1.png" alt="Project1">
                 <div class="layer">
                     <h3>K-pop sensation</h3>
-                    <button id="btn-project1"></button>
+                    <button id="btn-project1">Project Link </button>
                 </div>
             </div>
             <div class="showcase-project">
-                <img src="images/project-2.png">
+                <img src="images/project-2.png" alt="Project2">
                 <div class="layer">
                     <h3>Chat Bot</h3>
-                    <button id="btn-project2"></button>
+                    <button id="btn-project2">Project Link </button>
                 </div>
             </div>
             <div class="showcase-project">
-                <img src="images/project-3.png">
+                <img src="images/project-3.png" alt="Project3">
                 <div class="layer">
                     <h3>Data Visualisation</h3>
-                    <button id="btn-project3"></button>
+                    <button id="btn-project3">Project Link </button>
                 </div>
             </div>
         </div>
@@ -240,16 +240,19 @@
                 <a href="mailto:meetupatel2022@u.northwestern.edu" class="contact-content" target="_blank"><i class="fa-solid fa-paper-plane"></i> meetupatel2022@u.northwestern.edu</a>    
                 <p class="contact-content"><i class="fa-solid fa-square-phone"></i> (312) 439 7661</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/meetupatel1998/"><i class="uil uil-linkedin"></i></a>
-                    <a href="https://www.instagram.com/accounts/login/?next=%2Fmeetu__patel%2F&source=omni_redirect"><i class="uil uil-instagram-alt"></i></a>
-                    <a href="https://github.com/MeetuPatel"><i class="uil uil-github"></i></a>
+                    <a href="https://www.linkedin.com/in/meetupatel1998/">LinkedIn<i class="uil uil-linkedin"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=%2Fmeetu__patel%2F&source=omni_redirect">Instagram<i class="uil uil-instagram-alt"></i></a>
+                    <a href="https://github.com/MeetuPatel">Github<i class="uil uil-github"></i></a>
                 </div>
             </div>
             <div class="contact-col-2">
                 <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="text" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Your Name" required>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" placeholder="Your Email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Your message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
             </div>
@@ -263,7 +266,7 @@
       <span class="close1">&times;</span>
       <h1 class="project-header">K-pop sensation</h1>
       <div class="project-image">
-        <img src="images/project-1.png">
+        <img src="images/project-1.png" alt="Project1">
       </div>
       
       <div class="project-description">
@@ -272,7 +275,7 @@
             Our next visualisation is also a bar race chart which provided information on the major k-pop groups. Lastly, our final visualisation answers the question of why k-pop is so popular. This project was built using d3.js library. Click on the link below to view the project.</p>
       </div>
       <div class="project-link">
-        <a href="https://fire-butterflies.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="https://fire-butterflies.glitch.me/" target="_blank">Project Link<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
 </div>
@@ -281,14 +284,14 @@
       <span class="close2">&times;</span>
       <h1 class="project-header">Chat Bot</h1>
       <div class="project-image">
-        <img src="images/project-2.png">
+        <img src="images/project-2.png" alt="Project2">
       </div>
       
       <div class="project-description">
         <p>This project was built as a part of the class Generative Methods at Northwestern University. This is a chat bot which plays a game of rock paper scissors with you. It was built using concepts of tracery and vue. The bot has a playful vibe and you get a 50% chance of winning at this game. This project was built using p5.js library. Click on the link below to play the game.</p>
       </div>
       <div class="project-link">
-        <a href="https://meetupatel-a6.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="https://meetupatel-a6.glitch.me/" target="_blank">Project Link<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
 </div>
@@ -297,7 +300,7 @@
       <span class="close3">&times;</span>
       <h1 class="project-header">Data Visualisation</h1>
       <div class="project-image">
-        <img src="images/project-3.png">
+        <img src="images/project-3.png" alt="Project3">
       </div>
       
       <div class="project-description">
@@ -305,7 +308,7 @@
             The planets size varies on their velocity and the number of moons they have. It was made using p5.js library. Click on the link below to view the project.</p>
       </div>
       <div class="project-link">
-        <a href="https://meetupatel-a7.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="https://meetupatel-a7.glitch.me/" target="_blank"> Project Link<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
 </div>
