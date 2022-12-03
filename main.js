@@ -54,3 +54,10 @@ if (event.target == project1) {
     project3.style.display = "none";
     }
 }
+
+var age = document.getElementById("slider");
+var ageUpdate = document.getElementById("age");
+ageUpdate.innerHTML = slider.value;
+age.oninput = function() {
+    ageUpdate.innerHTML = this.value;
+  }

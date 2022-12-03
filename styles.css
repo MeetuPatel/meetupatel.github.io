@@ -442,9 +442,9 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 
-.contact-content{
+/* .contact-content{
     font-size: 25px;
-}
+} */
 
 .contact-col-2{
     flex-basis: 65%;
