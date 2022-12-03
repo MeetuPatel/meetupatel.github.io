@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetu Patel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/627b453919.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <!-- Nav Bar -->
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <!-- Landing page -->
+        <div class="header-intro">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Meetu Patel</span></h1>
+        </div>
+    </div>
+</div>
+
+<!-- About section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about1">
+                <img src="images/headshot-meetu.jpg">
+            </div>
+            <div class="about2">
+                <h1 class="heading">About Me</h1>
+                <p class="about-me-description">I am Meetu Patel. I am currently pursuing Master's in Computer Science from Northwestern University. I completed my bachelors in Computer Engineering from Nirma University. 
+                    I have worked primarily in the domain of Machine Learning and Big Data. I have experience working as a Machine Learning intern and Big Data Platform Engineering intern. </p>
+                <div class="about-me-titles">
+                    <p class="about-me-tab active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="about-me-tab" onclick="opentab('experience')">Experience</p>
+                    <p class="about-me-tab" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">HTML</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-html"></span>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">CSS</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-css"></span>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">Javascript</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-javascript"></span>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">JAVA</h3>
+                            <span class="skills-number">70%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-java"></span>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">Python</h3>
+                            <span class="skills-number">100%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-python"></span>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skills-name">
+                            <h3 class="skills-name">C++</h3>
+                            <span class="skills-number">50%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-cplusplus"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <div class="education-data">
+                        <div class="education-info">
+                            <h3 class="education-title">Machine Learning Intern</h3>
+                            <span class="education-subtitle">Avesta Technologies</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                May 2019 - July 2019
+                            </div>
+                        </div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                            <span class="education-line"></span>
+                        </div>
+                        <div class="empty-cell"></div>
+                    </div>
+                    <div class="education-data">
+                        <div class="empty-cell"></div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                            <span class="education-line"></span>
+                        </div>
+                        <div class="education-info">
+                            <h3 class="education-title">Data Science Intern</h3>
+                            <span class="education-subtitle">Avesta Technologies</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                Jan 2020 - May 2020
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-data">
+                        <div class="education-info">
+                            <h3 class="education-title">Big Data Platform Engineering Intern</h3>
+                            <span class="education-subtitle">PayPal</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                June 2022 - Aug 2022
+                            </div>
+                        </div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                        </div>
+                        <div class="empty-cell"></div>
+                    </div>
+                </div>
+                <div class="tab-contents" id="education">
+                    <div class="education-data">
+                        <div class="education-info">
+                            <h3 class="education-title">High School</h3>
+                            <span class="education-subtitle">St.Kabir</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2012- 2016
+                            </div>
+                        </div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                            <span class="education-line"></span>
+                        </div>
+                        <div class="empty-cell"></div>
+                    </div>
+                    <div class="education-data">
+                        <div class="empty-cell"></div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                            <span class="education-line"></span>
+                        </div>
+                        <div class="education-info">
+                            <h3 class="education-title">Computer Engineering</h3>
+                            <span class="education-subtitle">Nirma University</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2016- 2020
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-data">
+                        <div class="education-info">
+                            <h3 class="education-title">Computer Science</h3>
+                            <span class="education-subtitle">Northwestern University</span>
+                            <div class="education-calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2021- 2022
+                            </div>
+                        </div>
+                        <div class="education-timeline">
+                            <span class="education-circle"></span>
+                        </div>
+                        <div class="empty-cell"></div>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1u4fdmrFrl9xC3EW7K5QCOYokK92VnAzP/view?usp=sharing" target="_blank" class="btn btn2">My Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="heading">My Projects</h1>
+        <div class="project-list">
+            <div class="showcase-project">
+                <img src="images/project-1.png">
+                <div class="layer">
+                    <h3>K-pop sensation</h3>
+                    <button id="btn-project1"></button>
+                </div>
+            </div>
+            <div class="showcase-project">
+                <img src="images/project-2.png">
+                <div class="layer">
+                    <h3>Chat Bot</h3>
+                    <button id="btn-project2"></button>
+                </div>
+            </div>
+            <div class="showcase-project">
+                <img src="images/project-3.png">
+                <div class="layer">
+                    <h3>Data Visualisation</h3>
+                    <button id="btn-project3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- contact me -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-col-1">
+                <h1 class="heading">Contact Me</h1>
+                <a href="mailto:meetupatel2022@u.northwestern.edu" class="contact-content" target="_blank"><i class="fa-solid fa-paper-plane"></i> meetupatel2022@u.northwestern.edu</a>    
+                <p class="contact-content"><i class="fa-solid fa-square-phone"></i> (312) 439 7661</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/meetupatel1998/"><i class="uil uil-linkedin"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=%2Fmeetu__patel%2F&source=omni_redirect"><i class="uil uil-instagram-alt"></i></a>
+                    <a href="https://github.com/MeetuPatel"><i class="uil uil-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-col-2">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Content -->
+<div id="project1" class="modal">
+    <div class="modal-content">
+      <span class="close1">&times;</span>
+      <h1 class="project-header">K-pop sensation</h1>
+      <div class="project-image">
+        <img src="images/project-1.png">
+      </div>
+      
+      <div class="project-description">
+        <p>This project was built as a part of the class Interactive Information Visualisation at Northwestern University. We analysed the Spotify Music Dataset to find out the backstory behind k-pop's popularity. 
+            We use a storytelling approach to present our information. The first visualisation is a bar race chart which shows the years k-pop became famous. 
+            Our next visualisation is also a bar race chart which provided information on the major k-pop groups. Lastly, our final visualisation answers the question of why k-pop is so popular. This project was built using d3.js library. Click on the link below to view the project.</p>
+      </div>
+      <div class="project-link">
+        <a href="https://fire-butterflies.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+</div>
+<div id="project2" class="modal">
+    <div class="modal-content">
+      <span class="close2">&times;</span>
+      <h1 class="project-header">Chat Bot</h1>
+      <div class="project-image">
+        <img src="images/project-2.png">
+      </div>
+      
+      <div class="project-description">
+        <p>This project was built as a part of the class Generative Methods at Northwestern University. This is a chat bot which plays a game of rock paper scissors with you. It was built using concepts of tracery and vue. The bot has a playful vibe and you get a 50% chance of winning at this game. This project was built using p5.js library. Click on the link below to play the game.</p>
+      </div>
+      <div class="project-link">
+        <a href="https://meetupatel-a6.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+</div>
+<div id="project3" class="modal">
+    <div class="modal-content">
+      <span class="close3">&times;</span>
+      <h1 class="project-header">Data Visualisation</h1>
+      <div class="project-image">
+        <img src="images/project-3.png">
+      </div>
+      
+      <div class="project-description">
+        <p>This project was created as a part of the class Generative Methods. It visualises the dataset on planets and moons.
+            The planets size varies on their velocity and the number of moons they have. It was made using p5.js library. Click on the link below to view the project.</p>
+      </div>
+      <div class="project-link">
+        <a href="https://meetupatel-a7.glitch.me/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+</div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
